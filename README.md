@@ -54,7 +54,8 @@ pnpm i
 pnpm dlx wrangler d1 create replace-with-your-database-name-here
 ```
 
-Update `database_name` and `database_id` in [apps/api/wrangler.toml](./apps/api/wrangler.toml) with the output from wrangler.
+* Update `database_name` and `database_id` in [apps/api/wrangler.toml](./apps/api/wrangler.toml) with the output from wrangler.
+* Update the `database_name` to match in the npm tasks [here](https://github.com/w3cj/monorepo-example-tasks-app/blob/main/apps/api/package.json#L18)
 
 ### Run DB migrations locally
 
